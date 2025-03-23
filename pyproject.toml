@@ -1,0 +1,17 @@
+[project]
+name = "automatic-license-plate-recognition-using-yolov8-main"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]",
+    "easyocr>=1.7.2",
+    "filterpy>=1.4.5",
+    "numpy>=2.2.3",
+    "opencv-python>=4.11.0.86",
+    "pandas>=2.2.3",
+    "scipy>=1.15.1",
+    "setuptools>=75.8.0",
+    "ultralytics>=8.3.23",
+]
