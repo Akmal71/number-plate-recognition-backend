@@ -21,6 +21,4 @@ def video_input_upload(video: UploadFile = File(...),
         buffer.write(video.file.read())
     main(UPLOAD_DIR, video)
     data = interpolate_bounding_boxes(red_list_numbers)
-    
-
     return {'data': data}
